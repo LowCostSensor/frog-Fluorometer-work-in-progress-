@@ -1,0 +1,1 @@
+The device works as a simple fluorometer using LEDs and a light-dependent resistor (LDR). Each LED excites specific compounds in water (chlorophyll at 430 nm, humic substances at 280 nm). The emitted or reflected light is detected by the LDR, and the signal intensity is converted to approximate concentration via calibration curves.
