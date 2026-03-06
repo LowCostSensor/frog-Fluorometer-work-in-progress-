@@ -206,13 +206,13 @@ def main():
     
     # Quality check
     if r_squared >= 0.99:
-        print("✓ Excellent calibration (R² ≥ 0.99)")
+        print(" Excellent calibration (R^2 ≥ 0.99)")
     elif r_squared >= 0.97:
-        print("✓ Good calibration (R² ≥ 0.95)")
+        print(" Good calibration (R^2 ≥ 0.95)")
     elif r_squared >= 0.95:
-        print("⚠ Acceptable calibration (R² ≥ 0.90)")
+        print(" Acceptable calibration (R^2 ≥ 0.90)")
     else:
-        print("⚠ WARNING: Poor calibration (R² < 0.90)")
+        print("WARNING: Poor calibration (R^2 < 0.90)")
         print("  Consider repeating calibration with fresh standards.")
     
     print()
